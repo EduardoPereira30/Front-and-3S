@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: indigo;
+
+}
+
+.sessao-articles {
+
+    background-color: slateblue;
+    border: 2px solid lightskyblue;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    height: 920px;
+    width: 800px;
+}
+
+.article {
+    border: 2px solid slateblue;
+    background-color: darkslateblue;
+
+    height: 150px;
+    width: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
