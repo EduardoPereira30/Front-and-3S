@@ -64,11 +64,11 @@
 
                     <div class="form-contact__col-b">
                         <input class="form-contact__input form-contact__quarto" type="text" id="Cep" name="Cep"
-                            placeholder="Cep">
+                            placeholder="Cep" maxlength="8" onblur="BuscarEndereco(this.value)">
                         <input class="form-contact__input form-contact__metade" type="text" id="Rua"
                             name="Rua de lá casa" placeholder="Rua de lá casa">
-                        <input class="form-contact__input form-contact__quarto" type="text" id="Compremeto"
-                            name="Compremeto" placeholder="Compremeto">
+                        <input class="form-contact__input form-contact__quarto" type="text" id="Compremento"
+                            name="Compremento" placeholder="Compremento">
                     </div>
                 </div>
 
@@ -98,14 +98,14 @@
                     </div>
                 </div>
 
-                <div class="form-contact__linha">
+                <div class="form-contact__linha form-contact__col-anotacao">
                     <div class="form-contact__col-a">
                         <label class="form-contact__label" form="">Anotações</label>
                     </div>
 
                     <div class="form-contact__col-b">
                         <textarea class="form-contact__input form-contact__inteiro form-contact____anotacoes" type="tex"
-                            id="Anotações" name="Suas anotações aqui..."
+                            id="Anotacoes" name="Suas anotações aqui..."
                             placeholder="Suas anotações aqui..."></textarea>
                     </div>
                 </div>
@@ -115,8 +115,8 @@
                     </div>
 
                     <div class="form-contact__col-b form-contact__col-b-button">
-                        <button class="button cadastrar" onclick="validarFormulario()">Cadastrar</button>
-                        <Button class="button">Limpar</Button>
+                        <button type="button" class="button cadastrar" onclick="validarFormulario()">Cadastrar</button>
+                        <Button type="reset" class="button">Limpar</Button>
                     </div>
                 </div>
 

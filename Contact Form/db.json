@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "Eduardo",
+      "sobrenome": "Pereira"
+    },
+    {
+      "nome": "Julia",
+      "sobrenome": "Pereira",
+      "id": "Dv9gC3ZkAy8"
+    },
+    {
+      "nome": "maria",
+      "sobrenome": "Pereira",
+      "id": "iGCNcVK4P-Q"
+    },
+    {
+      "nome": "Stafhany",
+      "sobrenome": "Pereira",
+      "id": "Mb-05nj9Z2E"
+    },
+    {
+      "nome": "www",
+      "sobrenome": "yyy",
+      "id": "P13_9EPJDfQ"
+    },
+    {
+      "nome": "julia",
+      "sobrenome": "mauricio",
+      "id": "3VfEm7JMils"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Eduarda",
+      "id": "iotCByfOmDQ"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "mauricio",
+      "email": "dudupererasiva@gmail.com",
+      "nEstado": "55",
+      "ddd": "11",
+      "telefone": "223444556666",
+      "cep": "04245500",
+      "rua": "undefined",
+      "apartamento": "",
+      "compremento": "125",
+      "estado": "undefined",
+      "cidade": "undefined",
+      "bairro": "undefined",
+      "anotacoes": "saeawr5869708978o6ew6ruwrety9",
+      "id": "hojYT5j0TLs"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

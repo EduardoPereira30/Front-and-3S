@@ -81,6 +81,11 @@ body {
     /* border: 1px solid green; */
 }
 
+.form-contact__col-anotacao {
+    display: flex;
+    align-items: start !important;
+}
+
 .form-contact__col-a {
     display: flex;
     align-items: center;
